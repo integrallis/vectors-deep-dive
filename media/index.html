@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vectors Everywhere</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;background:#101826;color:#edf2fa;max-width:1120px;margin:3rem auto;padding:0 1.5rem}
+h1{font-size:2.4rem;line-height:1.15}h2{font-size:1.5rem}p{max-width:85ch;color:#bdcbe0}
+a{color:#8ad7ff}section{margin:3rem 0;padding-top:1rem;border-top:1px solid #344359}
+video{display:block;width:100%;background:#050a12;border-radius:8px}code{color:#fff}</style>
+<h1>Vectors Everywhere</h1>
+<p><a href="../article.md">Read the article</a>.</p>
+<section id="01-download"><h2>Download DBpedia-14</h2><p>JBang downloads both Parquet files and counts 630,000 rows using Java.</p>
+<video controls playsinline preload="metadata" poster="01-download.png" aria-label="Download DBpedia-14">
+<source src="01-download.mp4" type="video/mp4"></video>
+<p><a href="01-download.mp4">Open or download MP4</a></p></section>
+<section id="02-local"><h2>Inspect and query the persistent collection</h2><p>The existing 630,000-document HNSW collection: mmap files, generation, and a semantic query.</p>
+<video controls playsinline preload="metadata" poster="02-local.png" aria-label="Inspect and query the persistent collection">
+<source src="02-local.mp4" type="video/mp4"></video>
+<p><a href="02-local.mp4">Open or download MP4</a></p></section>
+<section id="03-sample"><h2>Create the Studio view</h2><p>Copy 200 existing embeddings per category into a new persistent 2,800-document collection. No re-embedding.</p>
+<video controls playsinline preload="metadata" poster="03-sample.png" aria-label="Create the Studio view">
+<source src="03-sample.mp4" type="video/mp4"></video>
+<p><a href="03-sample.mp4">Open or download MP4</a></p></section>
+<section id="04-studio-browse"><h2>Browse documents in Studio</h2><p>Open the full collection, change page size, page through rows, and inspect a document's text and metadata.</p>
+<video controls playsinline preload="metadata" poster="04-studio-browse.png" aria-label="Browse documents in Studio">
+<source src="04-studio-browse.mp4" type="video/mp4"></video>
+<p><a href="04-studio-browse.mp4">Open or download MP4</a></p></section>
+<section id="05-studio-tsne"><h2>Explore t-SNE in Studio</h2><p>The 2,800-document view, 2D, perplexity 30, learning rate 200, 500 iterations, seed 42. Zoom and hover over real documents.</p>
+<video controls playsinline preload="metadata" poster="05-studio-tsne.png" aria-label="Explore t-SNE in Studio">
+<source src="05-studio-tsne.mp4" type="video/mp4"></video>
+<p><a href="05-studio-tsne.mp4">Open or download MP4</a></p></section>
+<section id="06-r2"><h2>Publish, restore, and query R2</h2><p>A live R2 round trip of the 2,800-document view. Local and restored query output matches byte for byte; the temporary bucket is deleted.</p>
+<video controls playsinline preload="metadata" poster="06-r2.png" aria-label="Publish, restore, and query R2">
+<source src="06-r2.mp4" type="video/mp4"></video>
+<p><a href="06-r2.mp4">Open or download MP4</a></p></section>
+
+</html>
